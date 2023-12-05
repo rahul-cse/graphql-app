@@ -1,0 +1,13 @@
+schema{
+query:  Query
+}
+
+type Query{
+
+getAllCities :  [City]
+}
+
+type City{
+name: String
+countryCode: String
+}
